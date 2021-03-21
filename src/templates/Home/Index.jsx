@@ -84,16 +84,16 @@ class Home extends Component {
 
 
                 <div className="button-container">
-                    {
-                        !searchValue && (
-                            <Button
-                                text="Load More posts"
-                                onClick={this.loadMorePosts}
-                                disabled={noMorePost}
-
-                            />
-                        )
-                    }
+              
+                        <Button
+                        text="Load More posts"
+                        onClick={this.loadMorePosts}
+                        disabled={noMorePost}
+                        />
+                     
+                
+                    
+                    
                 </div>
             </section>
         );
