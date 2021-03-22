@@ -1,4 +1,4 @@
-.button{
+.button {
   width: 100%;
   background: darkblue;
   color: white;
@@ -7,7 +7,7 @@
   cursor: pointer;
 }
 
-.button:disabled{
+.button:disabled {
   background: #888;
   cursor: not-allowed;
 }
