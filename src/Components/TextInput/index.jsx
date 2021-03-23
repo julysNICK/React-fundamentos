@@ -5,9 +5,9 @@ export const TextInput = ({handleChange,searchValue}) => {
     <input
       className='text-input'
       onChange={handleChange}
-      values={searchValue}
+      value={searchValue}
       type='search'
-      placeholder="Type you search"
+      placeholder="Type your search"
     />
   )
 }

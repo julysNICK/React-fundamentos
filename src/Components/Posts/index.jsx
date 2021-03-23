@@ -1,7 +1,7 @@
 import React from 'react'
 import {PostCard} from '../PostCard/index'
 import './styles.css'
-export const Posts = ({posts}) => {
+export const Posts = ({posts= []}) => {
   return (
     < div className="posts" >
       {
